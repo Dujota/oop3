@@ -1,5 +1,5 @@
 # require 'activesupport'
-
+# Exercise 1
 list = (1..25).to_a  #setup the list
 
 def add_odd(list)
