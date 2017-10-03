@@ -1,5 +1,7 @@
 # require 'activesupport'
 # Exercise 1
+
+require 'pry'
 list = (1..25).to_a  #setup the list
 
 def add_odd(list)
@@ -13,3 +15,23 @@ def add_odd(list)
 end
 
 puts add_odd(list)
+
+
+
+
+
+
+
+# ALT WAY OF DOING IT
+
+
+#
+# def sum_oods(numbers)
+#   total = 0
+#   numbers.each do |number|
+#     if number.odd?
+#       total += number
+#     end
+#     return  total
+#   end
+# end
